@@ -33,7 +33,7 @@ pip install scrapy pandas phonenumbers requests beautifulsoup4 email_validator f
 
 2. Download the appropriate version of `chromedriver` from the official website: https://sites.google.com/a/chromium.org/chromedriver/downloads
 
-3. Replace the placeholders in the code with your specific file paths and adjust the settings as needed. Specifically, you need to replace:
+3. Replace the placeholders in the `contact_info_scraper/spiders/exammple.py` with your specific file paths and adjust the settings as needed. Specifically, you need to replace:
 
    - `input_file`: Replace with the path to your input CSV file containing the list of companies (replace `""` with the actual path).
    - `output_file`: Replace with the path to your output CSV file where the contact information will be saved (replace `""` with the actual path).
